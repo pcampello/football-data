@@ -1,13 +1,13 @@
 {
-    "name": "grambas/football-data",
+    "name": "pcampello/football-data",
     "type": "library",
     "minimum-stability": "dev",
     "description": "football-data.org API container for Laravel 5.2",
     "keywords": [
-        "grambas",
+        "pcampello",
         "footbal-data"
     ],
-    "homepage": "https://github.com/grambas/football-data",
+    "homepage": "https://github.com/pcampello/football-data",
     "license": "MIT",
     "authors": [
         {
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Grambas\\FootballData\\": "src"
+            "Pcampello\\FootballData\\": "src"
         }
     }
 }

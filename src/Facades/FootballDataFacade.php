@@ -1,5 +1,5 @@
 <?php 
-namespace Grambas\FootballData\Facades;
+namespace Pcampello\FootballData\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

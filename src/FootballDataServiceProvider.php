@@ -1,5 +1,5 @@
 <?php
-namespace Grambas\FootballData;
+namespace Pcampello\FootballData;
 
 use Illuminate\Support\ServiceProvider;
 use App;
