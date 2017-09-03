@@ -9,13 +9,11 @@ class FootballData
 		$this->client = $client;
 	}
 	//COMPETITION/LEAGUE
-	public function LeagueTable($id, $matchday="")
-	 	{
+	public function LeagueTable($id, $matchday=""){
 		$leagueTable = $this->client->get("competitions/{$id}/leagueTable/?matchday={$matchday}")->getBody();
 		return json_decode($leagueTable);
 	}
-	public function getLeagues($year="")
-	 	{
+	public function getLeagues($year=""){
 		$leagues = $this->client->get("competitions/?season={$year}")->getBody();
 		return json_decode($leagues);
 	}
